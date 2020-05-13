@@ -1,0 +1,302 @@
+
+body 
+  {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*
+      -----------------------------------------------
+      Navigation Bar Style
+      -----------------------------------------------
+*/
+.navbar
+{
+  background-color: black;
+  font-size: 16px;
+  border: none;
+}
+
+/*
+      -----------------------------------------------
+      Links within the Navigation Bar Style
+      -----------------------------------------------
+*/
+
+.navbar a
+{
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/*
+      -----------------------------------------------
+      The Space between each row 
+      -----------------------------------------------
+*/
+
+.row.content
+  {
+    height: 450px;
+  }
+
+/*
+      -----------------------------------------------
+      Side Navigation style for left and right edges of the page
+      -----------------------------------------------
+*/
+
+.sidenav
+  {
+      padding-top: 15px;
+      background-color: #f1f1f1;
+      height: 100%;
+  }
+
+/*
+      -----------------------------------------------
+      The style of the Drop-down button
+      -----------------------------------------------
+*/
+.dropbtn
+    {
+      background-color: black;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+
+    /*
+      -----------------------------------------------
+      The style of contents within the drop-down list
+      -----------------------------------------------
+*/
+
+.dropdown
+    {
+      position: relative;
+      display: inline-block;
+    }
+
+/*
+      -----------------------------------------------
+      The style of contents displayed inside the drop-down list
+      -----------------------------------------------
+*/
+.dropdown-content
+    {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 90px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+/*
+      -----------------------------------------------
+      The style of the linls inside the drop-down list
+      -----------------------------------------------
+*/
+  .dropdown-content a
+  {
+      color: black;
+      padding: 12px 12px;
+      text-decoration: none;
+      display: block;
+    }
+
+/*
+      -----------------------------------------------
+      The hover effect when mose is hovered on the drop-down list
+      -----------------------------------------------
+*/
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+
+/*
+      -----------------------------------------------
+      The style of the page's footer
+      -----------------------------------------------
+*/
+    footer
+    {
+      background-color: black;
+      color: white;
+      padding: 15px;
+      clear: both;
+      position: bottom;
+    }
+    
+
+/*
+      -----------------------------------------------
+      Contact Form Style
+      -----------------------------------------------
+*/
+* {
+  box-sizing: border-box;
+}
+    /*
+      -----------------------------------------------
+      The style of the text area for the contact form comment
+      -----------------------------------------------
+*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+    /*
+      -----------------------------------------------
+      The style of labels displayed before the contact form entries
+      -----------------------------------------------
+*/
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+    /*
+      -----------------------------------------------
+      The style of the the contact form submit button
+      -----------------------------------------------
+*/
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+    /*
+      -----------------------------------------------
+      The style of the the contact form submit button when mouse is hovered on
+      -----------------------------------------------
+*/
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+    /*
+      -----------------------------------------------
+      The style of the the container selector within the body of the page
+      -----------------------------------------------
+*/
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+/*
+      -----------------------------------------------
+      The style of lists within the rows of tables
+      -----------------------------------------------
+*/
+
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+
+/*
+      -----------------------------------------------
+      The style of lists' links within the rows of tables
+      -----------------------------------------------
+*/
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: red;
+        text-decoration: none;
+    }
+
+/*
+      -----------------------------------------------
+      The style of lists when mouse hovers on them
+      -----------------------------------------------
+*/
+        ul li:hover{
+        color: red;
+        background: #939393;
+    }
+
+/*
+      -----------------------------------------------
+      The style of lists when mouse hovers on links
+      -----------------------------------------------
+*/
+    ul li a:hover{
+        color: red;
+        background: #939393;
+    }
+
+    /*
+      -----------------------------------------------
+      The style of lists within the drop-down lists
+      -----------------------------------------------
+*/
+    ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+
+        /*
+      -----------------------------------------------
+      The style of lists within the drop-down lists as the mouse hovers on them
+      -----------------------------------------------
+*/
+    ul li:hover ul.dropdown
+    {
+        display: block; /* Display the dropdown */
+    }
+
+        /*
+      -----------------------------------------------
+      The style of lists when SM Tools is clicked
+      -----------------------------------------------
+*/
+    ul li ul.dropdown li
+    {
+        display: block;
+    }
+    /*
+      ----------------------------------------------
+    */
+
+    /*
+      -----------------------------------------------
+      The responsive effect of contents when the width of the page is less less than 768 pixels
+      -----------------------------------------------
+*/
+
+    @media screen and (max-width: 767px) {
+      .sidenav
+      {
+        height: auto;
+        padding: 15px;
+      }
+      
+      .row.content
+      {
+        height:auto;} 
+      }

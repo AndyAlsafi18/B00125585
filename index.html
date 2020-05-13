@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <! –– The applied page style ––>
+  <link rel="stylesheet" type="text/css" href="WebStyle.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <! –– The navigation bar with menu items and the logo ––>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>                      
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.jpeg" alt="twitter" width="30" height="30"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="index.html" style="color:white">Home</a>
+        </li>
+
+    <li>
+      <! –– The drop-down item within the menu bar ––>
+      <div class="dropdown">
+          <button class="dropbtn">SM Tools 
+          <i class="fa fa-caret-down"></i>
+          </button>
+
+          <! –– The drop-down options ––>
+          <div class="dropdown-content">
+            <a href="slack.html">Slack</a>
+            <a href="twitter.html">Twitter</a>
+            <a href="facebook.html">FaceBook</a>
+            <a href="Snap.html">Snapchat</a>
+            <a href="tiktok.html">Tiktok</a>
+          </div>
+
+      </div>
+    </li>
+    <! –– The remaining parts of the navigation bar with customized color ––>
+        <li><a href="tutorials.html" style="color:white">Tutorials</a></li>
+        <li><a href="contact-us.html" style="color:white">Contact Us</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<! –– The container selector of the page ––>
+<div class="container-fluid text-center">    
+  <div class="row content">
+
+    <! –– The sidenav selector of the page ––>
+    <div class="col-sm-2 sidenav">
+    </div>
+
+    <! –– The page contents layout ––>
+    <div class="col-sm-8 text-left">
+
+      <h1>Welcome</h1>
+      <p>This project was created by Abdulrahman Alsaﬁ to demonstrate the impact of Social media tools on digital marketing and establishing new online businesses</p>
+      <br>
+      <hr>
+      <h3>Tutorials</h3>
+      <p>There are various social media tools, each with different audience and different purposes. For instance: Slack is more like a chat room for multiple groups working collaboratively. Twitter offers limited number of characters per post making them breif and straight to the point</p>
+
+
+    </div>
+<div class="col-sm-2 sidenav">
+
+  </div>
+</div>
+
+
+<! –– The Footer of the page ––>
+<footer class="container-fluid text-center">
+  <p>DMEDH1018 Web Development 2 (2020)</p>
+</footer>
+
+</body>
+</html>
